@@ -35,4 +35,14 @@ nav {
     border: none;
     border-radius: 5px;
   }
-  
+.bord{
+  width: 500px;
+  height: 80px;
+  background-color: #003366;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  padding: 20px;
+  margin-top: 5px;
+  margin-left: 30%;
+  color: white;
+}  
