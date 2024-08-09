@@ -68,19 +68,18 @@ nav {
   background-image: url("schoolimages/img1.png");
   background-size: cover;
 }
-.about .text1{
-  
-}
 .about .text1 h2{
   color: #003366;
   border-bottom: 2px solid #003366;
   position: relative;
   display: inline-block;
+  margin-left: 100px;
   
 }
 .about .text1 p{
   color: #003366;
-  
+  line-height: 20px;
+  font-size: 15px;
 }
 .about .text1 button{
   color: #003366;
@@ -90,6 +89,7 @@ nav {
   height: 30px;
   border: 2px solid #003366;
   cursor: pointer;
+  margin-left: 100px;
 }
 .about .text1 button:hover{
   background-color: #003366;
