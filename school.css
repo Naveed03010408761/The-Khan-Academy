@@ -50,7 +50,48 @@ nav {
 .section1{
   width: 100%;
   height: 600px;
-  background-image: url("schoolimages/logo.jpg");
+  background-image: url("schoolimages/back.jpg");
   background-size: cover;
   margin-top: 10px;
+}
+.about{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+.img1{
+  width: 400px;
+  height: 400px;
+  background-image: url("schoolimages/img1.png");
+  background-size: cover;
+}
+.about .text1{
+  
+}
+.about .text1 h2{
+  color: #003366;
+  border-bottom: 2px solid #003366;
+  position: relative;
+  display: inline-block;
+  
+}
+.about .text1 p{
+  color: #003366;
+  
+}
+.about .text1 button{
+  color: #003366;
+  font-size: 13px;
+  font-weight: 500;
+  width: 150px;
+  height: 30px;
+  border: 2px solid #003366;
+  cursor: pointer;
+}
+.about .text1 button:hover{
+  background-color: #003366;
+  color: white;
 }
