@@ -1,0 +1,101 @@
+/* Basic styling for the Academics section */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.section-academics {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-academics h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.section-academics p, .section-academics ul {
+    margin-bottom: 20px;
+}
+
+.section2 {
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sec {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #003366;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .txt {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .txt h1 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .txt p {
+    color: #003366;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .txt button {
+    color: #003366;
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #003366;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .txt button:hover {
+    background-color: #003366;
+    color: white;
+  }
