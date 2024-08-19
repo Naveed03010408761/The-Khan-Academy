@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -6,7 +6,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Admission Section Styles */
 .admission-section {
     padding: 50px 20px;
     background-color: #fff;

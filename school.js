@@ -18,8 +18,8 @@ function moveSlide(n) {
     showSlide(slideIndex + n);
 }
 
-// Initialize the carousel
+
 showSlide(slideIndex);
 
-// Auto slide every 5 seconds
+
 setInterval(() => moveSlide(1), 5000);
