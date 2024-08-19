@@ -152,3 +152,40 @@ nav .search-bar input {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+
+.section2{
+  width: 100%;
+  height: auto;
+}
+.admission{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.admission .text{
+  width: 500px;
+  height: 500px;
+  border: 2px solid #003366;
+  
+
+}
+.admission .text h2 {
+  color: #003366;
+  border-bottom: 2px solid #003366;
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+}
+.admission .text p{
+  color: #003366;
+  line-height: 30px;
+  font-size: 15px;
+}
+.admission .img{
+  width: 500px;
+  height: 500px;
+
+}
+
