@@ -27,7 +27,10 @@ setInterval(() => moveSlide(1), 5000);
 let btn = document.querySelector(".icon");
 btn.addEventListener("click",()=>{
     const search = document.getElementById("search").value.toLowerCase();
-     if(search === "about"){
+    if(search === ""){
+        alert("please enter something!");
+    }
+     else if(search === "about"){
         window.location.href = "about.html";
     }
     else if(search === "academic"){
@@ -46,10 +49,10 @@ btn.addEventListener("click",()=>{
     document.body.appendChild(div);
     let button = document.createElement("button");
     button.className = "button";
-    button.innerText = "Back";
+    button.innerHTML = "<i class='fa-solid fa-arrow-left'></i>";
     div.appendChild(button);
     button.addEventListener("click",()=>{
-        window.location.href = "school.html"
+        window.location.href = "school.html";
     })
    }
 })
