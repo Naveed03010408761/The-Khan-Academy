@@ -23,3 +23,35 @@ showSlide(slideIndex);
 
 
 setInterval(() => moveSlide(1), 5000);
+
+let btn = document.querySelector(".icon");
+btn.addEventListener("click",()=>{
+    const search = document.getElementById("search").value.toLowerCase();
+     if(search === "about"){
+        window.location.href = "about.html";
+    }
+    else if(search === "academic"){
+        window.location.href = "academic.html";
+    }
+    else if(search === "admission"){
+        window.location.href = "admission.html";
+    }
+    else if(search === "contact"){
+        window.location.href = "contact.html";
+    }
+   else{
+    let div = document.createElement("div");
+    div.className = "div";
+    div.innerText = "Page not available";
+    document.body.appendChild(div);
+    let button = document.createElement("button");
+    button.className = "button";
+    button.innerText = "Back";
+    div.appendChild(button);
+    button.addEventListener("click",()=>{
+        window.location.href = "school.html"
+    })
+   }
+})
+
+

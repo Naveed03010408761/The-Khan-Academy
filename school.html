@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="school.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>The Khan Academy</title>
   </head>
   <body>
     <nav>
@@ -20,7 +21,7 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div class="search-bar">
-        <input type="text" placeholder="Search..." />
+        <input type="text" placeholder="Search..." id="search" /><button class="icon"><i class="fa-solid fa-magnifying-glass"></i></button>
       </div>
     </nav>
     <div class="bord">
@@ -49,39 +50,45 @@
       </div>
     </div>
 
-<div class="carousel-container">
-    <div class="carousel-slide">
+    <div class="carousel-container">
+      <div class="carousel-slide">
         <div class="carousel-item">
-            <img src="schoolimages/ac1.png" alt="Curriculum">
-            <div class="carousel-caption">
-                <h3>Comprehensive Curriculum</h3>
-                <p>Explore our wide-ranging curriculum that caters to the needs of all students.</p>
-            </div>
+          <img src="schoolimages/ac1.png" alt="Curriculum" />
+          <div class="carousel-caption">
+            <h3>Comprehensive Curriculum</h3>
+            <p>
+              Explore our wide-ranging curriculum that caters to the needs of
+              all students.
+            </p>
+          </div>
         </div>
         <div class="carousel-item">
-            <img src="schoolimages/ac2.png" alt="Faculty">
-            <div class="carousel-caption">
-                <h3>Experienced Faculty</h3>
-                <p>Meet our dedicated faculty members who are experts in their fields.</p>
-            </div>
+          <img src="schoolimages/ac2.png" alt="Faculty" />
+          <div class="carousel-caption">
+            <h3>Experienced Faculty</h3>
+            <p>
+              Meet our dedicated faculty members who are experts in their
+              fields.
+            </p>
+          </div>
         </div>
         <div class="carousel-item">
-            <img src="schoolimages/ac3.png" alt="Labs">
-            <div class="carousel-caption">
-                <h3>State-of-the-Art Labs</h3>
-                <p>Hands-on learning in our modern science and computer labs.</p>
-            </div>
+          <img src="schoolimages/ac3.png" alt="Labs" />
+          <div class="carousel-caption">
+            <h3>State-of-the-Art Labs</h3>
+            <p>Hands-on learning in our modern science and computer labs.</p>
+          </div>
         </div>
+      </div>
+      <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+      <a class="next" onclick="moveSlide(1)">&#10095;</a>
     </div>
-    <!-- Navigation buttons -->
-    <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
-    <a class="next" onclick="moveSlide(1)">&#10095;</a>
-</div>
 
-<div class="section2">
-  <div class="admission">
-    <div class="text">
-    <pre><p>
+    <div class="section2">
+      <div class="admission">
+        <div class="text">
+          <h2>Admissions Open</h2>
+          <pre><p>
       At our school, we believe that every child
       has the potential to achieve greatness. 
       Our admission process is designed to identify
@@ -93,16 +100,20 @@
       With a commitment to providing personalized
       attention, we ensure that every applicant’s
       unique talents and aspirations are recognized.
-      Join us in our journey to shape the future leaders
-      of tomorrow by applying to our esteemed institution.
     </p></pre>
+    <button>Learn More</button>
+        </div>
+        <div class="img">
+          <img
+            src="schoolimages/addmission2.png"
+            alt=""
+            width="500px"
+            height="500px"
+          />
+        </div>
+      </div>
     </div>
-    <div class="img">
-     <img src="schoolimages/addmission2.png" alt="" width="500px" height="500px">
-    </div>
-  </div>
-</div>
 
-<script src="school.js"></script>
+    <script src="school.js"></script>
   </body>
 </html>
