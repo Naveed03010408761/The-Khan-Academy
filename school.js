@@ -52,7 +52,7 @@ btn.addEventListener("click",()=>{
     button.innerHTML = "<i class='fa-solid fa-arrow-left'></i>";
     div.appendChild(button);
     button.addEventListener("click",()=>{
-        window.location.href = "school.html";
+    window.location.href = "school.html";
     })
    }
 })
