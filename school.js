@@ -60,9 +60,8 @@ btn.addEventListener("click",()=>{
 let submit = document.getElementById("submit");
 
 submit.addEventListener("click", (event) => {
-    event.preventDefault(); // Prevent the default form submission behavior
+    event.preventDefault(); 
 
-    // Capture form data
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
@@ -70,15 +69,15 @@ submit.addEventListener("click", (event) => {
     let gender = document.querySelector('input[name="gender"]:checked').value;
     let agree = document.querySelector('input[name="agree"]').checked;
 
-    // Display or process the captured data
+    
     if (agree) {
         console.log("Name:", name);
         console.log("Email:", email);
-        console.log("Password:", password); // Be cautious with passwords in real apps
+        console.log("Password:", password); 
         console.log("Biography:", bio);
         console.log("Gender:", gender);
 
-        // You can display the data on the page
+        
         let formPage = document.createElement("div");
         formPage.className = "formPage";
 

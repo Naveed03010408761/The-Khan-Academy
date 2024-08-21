@@ -73,24 +73,4 @@ button:hover {
     background-color: #002244;
 }
 
-@keyframes slideDown {
-    from {
-        transform: translateY(-100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
 
-.formPage {
-    background-color: white;
-    color: black;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    margin: 20px auto;
-    animation: slideDown 1s ease-out;
-}
